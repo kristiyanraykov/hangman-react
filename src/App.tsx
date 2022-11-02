@@ -1,6 +1,9 @@
 import './App.css';
 import words from './wordList.json';
 import {useState} from 'react';
+import HangmanDrawing from './HangmanDrawing'
+import HangmanWord from './HangmanWord'
+import Keyboard from './Keyboard'
 
 export default function App() {
   const [wordToGuess, setWordToGuess] = useState(() => {
